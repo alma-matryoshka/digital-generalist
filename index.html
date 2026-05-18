@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Альма Матрёшка — цифровой дженералист</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Мобильный splash: матрёшка на весь экран, уходит при скролле -->
+  <div class="mobile-splash" aria-hidden="true">
+    <div class="mobile-splash__inner">
+      <img
+        class="mobile-splash__title"
+        src="img/title-active.png"
+        width="520"
+        alt=""
+      >
+      <div class="mobile-splash__doll">
+        <img
+          class="matryoshka matryoshka--splash"
+          src="img/matryoshka.png"
+          width="640"
+          alt=""
+        >
+        <img
+          class="symbols symbols--splash"
+          src="img/symbols.png"
+          width="640"
+          alt=""
+        >
+      </div>
+    </div>
+  </div>
+
+  <main class="landing">
+    <section class="content">
+      <h1 class="title">
+        <img src="img/title-active.png" width="520" alt="Альма Матрёшка">
+      </h1>
+      <p class="subtitle">Цифровой дженералист</p>
+
+      <div class="actions">
+        <a class="btn btn-details" href="https://t.me/matryoshka_ultra_manager">
+          <img src="img/button-details.png" alt="Подробнее">
+        </a>
+        <a class="btn btn-want" href="https://t.me/matryoshka_ultra_manager">
+          <img src="img/button-want-to.png" alt="Уже хочу!">
+        </a>
+      </div>
+
+      <div class="description" id="about">
+        <p>
+          Это не обычный эд.тех курс, который обещает вам золотые горы в найме,
+          это путь к своим проектам и финансовой преисполненности и свободе.
+        </p>
+        <p>
+          Это групповые и индивидуальные консультации/мастера-классы
+          по разным направлениям.
+        </p>
+      </div>
+    </section>
+
+    <section class="hero hero--desktop" aria-label="Иллюстрация">
+      <div class="hero-visual" id="heroVisual">
+        <div class="matryoshka-wrap" id="matryoshkaWrap">
+          <img
+            class="matryoshka"
+            src="img/matryoshka.png"
+            width="640"
+            alt="Матрёшка в VR-очках"
+          >
+        </div>
+        <img
+          class="symbols"
+          src="img/symbols.png"
+          width="640"
+          alt=""
+          aria-hidden="true"
+        >
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
